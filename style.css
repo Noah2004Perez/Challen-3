@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    width: 100%;
+    height: 100vh;
+}
+
+:root{
+--Softblue: hsl(215, 51%, 70%);
+--Cyan: hsl(178, 100%, 50%);
+--Very-dark-blue-one: hsl(217, 54%, 11%);
+--Very-dark-blue-two: hsl(216, 50%, 16%);
+--Very-dark-blue-three: hsl(215, 32%, 27%); /*Line */
+--White: hsl(0, 0%, 100%);
+}
+
+body{
+    background-color: var(--Very-dark-blue-one);
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+}
+
+main{
+    width: 270px;
+    height: 470px;
+    margin: 30px auto;
+    border-radius: 10px;
+    background-color: var(--Very-dark-blue-two);
+}
+
+section.Master{
+    padding: 1rem;
+}
+
+img.img{
+    border-radius: 5px;
+    width: 230px;
+}
+
+h1{
+    color: var(--White);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+p{
+    color: var(--Softblue);
+    margin-bottom: 1rem;
+    width: 250px;
+    font-size: 14px;
+}
+
+div.letras{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid var(--Very-dark-blue-three);
+}
+
+span.One{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: var(--Cyan);
+    font-size: 13px;
+}
+
+span.Two{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: var(--Softblue);
+    font-size: 13px;
+}
+
+article{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 1rem;
+}
+
+img.person{
+    width: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+p.desc{
+    padding-top: 6px;
+}
+
+span.Three{
+    color: white;
+}
